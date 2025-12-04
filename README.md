@@ -2,6 +2,33 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## Todos
+
+- [x] Create application with the last version
+- [ ] Create Pages and layout
+  - [ ] Home page (all videos)
+  - [ ] Single video page
+  - [ ] Header
+- [ ] Create components with static data
+  - [ ] Video Item *responsive*
+  - [ ] Video List
+  - [ ] UI Test (nice to have)*
+- [ ] API call
+  - [ ] Cash with TanStack (nice to have)*
+- [ ] Logics for:
+  - [ ] Grouping the videos by genres + Unit tests
+  - [ ] Sorting the videos by rating + Unit tests
+  - [ ] Search + Unit tests
+  - [ ] more features?! (nice to have)*
+- [ ] Dark/Light Theme (nice to have)*
+
+## Reminder
+
+- Update main Readme file in the root for with the details of the project
+- Add one Readme file per each folder to explain what is this folder for
+- Mobile friendly in list, and single page
+- Deploy on github-page
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
@@ -9,7 +36,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Recommended Browser Setup
 
 - Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
   - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
 - Firefox:
   - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
