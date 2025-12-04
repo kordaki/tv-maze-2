@@ -5,10 +5,10 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Todos
 
 - [x] Create application with the last version
-- [ ] Create Pages and layout
-  - [ ] Home page (all videos)
-  - [ ] Single video page
-  - [ ] Header
+- [x] Create Pages and layout
+  - [x] Home page (all videos)
+  - [x] Single video page
+  - [x] Header
 - [ ] Create components with static data
   - [ ] Video Item *responsive*
   - [ ] Video List
@@ -24,6 +24,8 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Reminder
 
+- Clean-up default files
+- Check console errors
 - Update main Readme file in the root for with the details of the project
 - Add one Readme file per each folder to explain what is this folder for
 - Mobile friendly in list, and single page
