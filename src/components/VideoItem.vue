@@ -17,7 +17,7 @@ defineProps({
       <img :src="thumbnail ||
         'https://placehold.co/210x295?text=image+not+found'
         " alt="video" title="video" />
-      <div class="badge">{{ status }}</div>
+      <div class="badge" :class="status">{{ status }}</div>
 
 
       <div class="description" v-html="summary"></div>
@@ -81,11 +81,20 @@ defineProps({
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  background: var(--color-accent);
+  background: var(--color-border-hover);
   color: var(--color-on-accent);
   padding: 0.2rem 0.5rem;
   font-size: 0.75rem;
   border-radius: 4px;
+  opacity: 0.9;
+}
+
+.video .hero .badge.Running {
+  background: var(--color-primary);
+}
+
+.video .hero .badge.Ended {
+  background: var(--color-secondary);
 }
 
 .video .hero .description {
@@ -130,6 +139,7 @@ defineProps({
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: var(--color-secondary);
 }
 
 .video .attribute {
@@ -179,5 +189,30 @@ defineProps({
   .item:last-of-type:after {
     display: none;
   }
+}
+
+@media (max-width: 768px) {
+
+  .video .hero .description {
+    opacity: 1;
+    top: unset !important;
+    padding: 0.5rem 1rem 2rem;
+    bottom: 0;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(from var(--color-border-hover) r g b / 0.75);
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: calc(var(--video-height) / 3);
+  }
+
+  .video::after {
+    display: none;
+  }
+
+
 }
 </style>
