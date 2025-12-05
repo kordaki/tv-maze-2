@@ -30,6 +30,7 @@ This template should help get you started developing with Vue 3 in Vite.
 - Add one Readme file per each folder to explain what is this folder for
 - Mobile friendly in list, and single page
 - Deploy on github-page
+- It has Serries and shows. it would be nice to group them together
 
 ## Recommended IDE Setup
 
