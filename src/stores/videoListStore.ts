@@ -1,7 +1,9 @@
-import { reactive, computed } from "vue";
+import { reactive, computed, toRaw } from "vue";
 import { defineStore } from "pinia";
 import { getVideoScheduleRequest } from "@/services/api/VideoDataServices";
 import { VideoListModel } from "./models/VideoListModel";
+
+import type { Video } from "@/types";
 
 export const useVideoListStore = defineStore("videoList", () => {
   // state
@@ -18,27 +20,50 @@ export const useVideoListStore = defineStore("videoList", () => {
     if (list) videos.list = list;
   };
 
-  const getVideoList =  async () => {
+  const requestVideoList =  async () => {
     if (videos.isLoading) return;
     updateVideos({ isLoading: true, error: null });
     const [error, response] = await getVideoScheduleRequest();
-    console.log(" -- [videoList Store] -- response from store:", response);
     const convertedList = VideoListModel.create(response);
-    console.log(" -- [videoList Store] -- convertedList:", convertedList);
     return updateVideos({ isLoading: false, error: error, list: convertedList});
   }
 
-
   // getters
-  // const getVideoList = computed (() => {
-  //   return videos.list;
-  // })
+  const videoListGroupedByGenre = computed(() => {
+    if (videos.error) return {};
+    return VideoListModel.getVideoListGroupedByGenre(videos.list);
+  });
 
+  const genresList = computed(() => VideoListModel.getGenresList(videoListGroupedByGenre.value));
 
+  // methods
+  const sortVideoByRating = (videoList: Array<Video>) => {
+    return videoList.sort((a: Video, b: Video) => {
+      if (a.rating.average > b.rating.average) {
+        return -1;
+      }
+      if (a.rating.average < b.rating.average) {
+        return 1;
+      }
+      return 0;
+    });
+  };
+
+  const getVideoListByGenre = (genreName: string, isSortEnable: boolean) => {
+    const videoListId = videoListGroupedByGenre.value[genreName];
+    if (!videoListId) return [];
+    let res = videoListId.map((videoId: number) => toRaw(videos.list[videoId]));
+    if (isSortEnable) res = sortVideoByRating(res);
+    return res;
+  };
 
   return {
     videos,
-    getVideoList
+    requestVideoList,
+    genresList,
+    videoListGroupedByGenre,
+    sortVideoByRating,
+    getVideoListByGenre,
   };
 
 });

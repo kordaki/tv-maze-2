@@ -2,18 +2,24 @@
 // import TheWelcome from '../components/TheWelcome.vue'
 import { onMounted } from 'vue';
 import { useVideoListStore } from '@/stores/videoListStore';
+import IconLoading from '@/components/icons/IconLoading.vue';
 import VideoList from '../components/VideoList.vue';
 const videoListStore = useVideoListStore();
 
 onMounted(() => {
-  videoListStore.getVideoList();
+  videoListStore.requestVideoList();
 });
 
 </script>
 
 <template>
   <main>
-    <div v-if="videoListStore.videos.isLoading"> is Loading </div>
+    <section>
+      <IconLoading v-if="videoListStore.videos.isLoading" />
+      <section v-else-if="videoListStore.genresList.length > 0">
+        <VideoList v-for="genre in videoListStore.genresList" :genre="genre" v-bind:key="genre" />
+      </section>
+    </section>
     <VideoList />
   </main>
 </template>

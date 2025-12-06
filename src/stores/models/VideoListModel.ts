@@ -1,3 +1,5 @@
+import type { Video } from "../../types";
+
 export class VideoListModel {
   static create(data: any): VideoListModel { // TODO: define data type
     if (!data) return {};
@@ -19,4 +21,27 @@ export class VideoListModel {
     }, {});
     return newVideoList;
   }
+
+  static getVideoListGroupedByGenre = (videoList) => {
+    const groupedByGenre = { Unknown: [] };
+    Object.keys(videoList).forEach((key) => {
+      const video: Video = videoList[key];
+      if (video.genres.length === 0) {
+        groupedByGenre["Unknown"].push(video.id);
+        return;
+      }
+      video.genres.forEach((genre: string) => {
+        if (groupedByGenre[genre]) {
+          groupedByGenre[genre].push(video.id);
+        } else {
+          groupedByGenre[genre] = [video.id];
+        }
+      });
+    });
+    return groupedByGenre;
+  };
+
+  static getGenresList = (videoListGroupedByGenre) => {
+    return Object.keys(videoListGroupedByGenre);
+  };
 }
