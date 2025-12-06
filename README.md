@@ -9,9 +9,10 @@ This template should help get you started developing with Vue 3 in Vite.
   - [x] Home page (all videos)
   - [x] Single video page
   - [x] Header
-- [ ] Create components with static data
-  - [ ] Video Item *responsive*
-  - [ ] Video List
+- [x] Create components with static data
+  - [x] Video Item *responsive*
+  - [x] Video List
+  - [ ] Single page components
   - [ ] UI Test (nice to have)*
 - [ ] API call
   - [ ] Cash with TanStack (nice to have)*
