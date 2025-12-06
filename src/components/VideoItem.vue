@@ -1,4 +1,7 @@
 <script setup>
+import StarIcon from './icons/IconStar.vue'
+import LanguageIcon from './icons/IconLanguage.vue'
+
 defineProps({
   thumbnail: String,
   title: String,
@@ -23,9 +26,14 @@ defineProps({
       <div class="description" v-html="summary"></div>
     </div>
     <h3 class="name">{{ title }}</h3>
-    <div class="attribute">
-      <!-- Rate: <b v-if="rating.average">{{ rating.average }}</b> <i v-else>Empty</i> -->
-      Rate: <b>{{ rate }}</b>
+    <div class="attribute inline">
+      <span class="inline-flex">
+        <LanguageIcon color="var(--color-primary)" /> {{ language }}
+      </span>
+      <span class="inline-flex">
+        <!-- Rate: <b v-if="rating.average">{{ rating.average }}</b> <i v-else>Empty</i> -->
+        <StarIcon color="var(--color-primary)" /> <b>{{ rate }}</b>
+      </span>
     </div>
     <div class="attribute">
       Genre:
@@ -35,7 +43,9 @@ defineProps({
         <i v-else> Unknown </i>
     </div>
 
-    <div class="attribute">Language: {{ language }}</div>
+    <div class="attribute">
+
+    </div>
     <div class="attribute">Type: {{ type }}</div>
   </article>
 </template>
@@ -145,6 +155,17 @@ defineProps({
 .video .attribute {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.video .attribute.inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video .inline-flex {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 @media (min-width: 1024px) {
