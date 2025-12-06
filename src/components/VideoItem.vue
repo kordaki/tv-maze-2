@@ -1,17 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import StarIcon from './icons/IconStar.vue'
 import LanguageIcon from './icons/IconLanguage.vue'
-
-defineProps({
-  thumbnail: String,
-  title: String,
-  rate: [Number, String],
-  genres: [String, Array],
-  language: String,
-  type: String,
-  status: String,
-  summary: String
-})
+import type { Video } from '@/types';
+const {
+  id,
+  title,
+  language,
+  rating,
+  status,
+  type,
+  genres,
+  summary,
+  thumbnail,
+} =
+  defineProps<Video>()
 </script>
 
 <template>
@@ -20,7 +22,7 @@ defineProps({
       <img :src="thumbnail ||
         'https://placehold.co/210x295?text=image+not+found'
         " alt="video" title="video" />
-      <div class="badge" :class="status">{{ status }}</div>
+      <div class="badge" :class="status" v-if="status">{{ status }}</div>
 
 
       <div class="description" v-html="summary"></div>
@@ -32,7 +34,7 @@ defineProps({
       </span>
       <span class="inline-flex">
         <!-- Rate: <b v-if="rating.average">{{ rating.average }}</b> <i v-else>Empty</i> -->
-        <StarIcon color="var(--color-primary)" /> <b>{{ rate }}</b>
+        <StarIcon color="var(--color-primary)" /> <b>{{ rating }}</b>
       </span>
     </div>
     <div class="attribute">
@@ -41,10 +43,6 @@ defineProps({
         <span v-for="(genre, idx) in genres" :key="idx">{{ genre + (idx < genres.length - 1 ? ", " : "") }} </span>
         </span>
         <i v-else> Unknown </i>
-    </div>
-
-    <div class="attribute">
-
     </div>
     <div class="attribute">Type: {{ type }}</div>
   </article>
@@ -150,11 +148,13 @@ defineProps({
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--color-secondary);
+  padding: 0.3rem 0;
 }
 
 .video .attribute {
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 0.2rem;
 }
 
 .video .attribute.inline {

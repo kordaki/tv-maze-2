@@ -1,25 +1,19 @@
 <script setup lang="ts">
 // import TheWelcome from '../components/TheWelcome.vue'
 import { onMounted } from 'vue';
+import { useVideoListStore } from '@/stores/videoListStore';
 import VideoList from '../components/VideoList.vue';
-import { getVideoScheduleRequest } from '../services/api/VideoDataServices';
-// import {useVideoStore} from '../stores/videoStore';
-// const videoStore = useVideoStore();
+const videoListStore = useVideoListStore();
 
-onMounted(async () => {
-  const [error, videoList] = await getVideoScheduleRequest();
-  if (!error) {
-    console.log(videoList);
-  } else {
-    console.error(error);
-  }
+onMounted(() => {
+  videoListStore.getVideoList();
 });
 
 </script>
 
 <template>
   <main>
+    <div v-if="videoListStore.videos.isLoading"> is Loading </div>
     <VideoList />
-    <!-- <TheWelcome /> -->
   </main>
 </template>

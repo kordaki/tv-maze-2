@@ -2,13 +2,16 @@
 
 import { ref } from 'vue'
 import VideoItem from './VideoItem.vue';
+import { useVideoListStore } from '@/stores/videoListStore';
+
+const videoListStore = useVideoListStore();
 
 const videos = ref([
   {
     id: 1,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_portrait/359/898306.jpg',
     title: 'Breaking Bad',
-    rate: 9.5,
+    rating: 9.5,
     genres: ['Crime', 'Drama', 'Thriller'],
     language: 'English',
     type: 'Scripted',
@@ -19,7 +22,7 @@ const videos = ref([
     id: 2,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_portrait/528/1320416.jpg',
     title: 'Game of Thrones',
-    rate: 9.3,
+    rating: 9.3,
     genres: ['Drama', 'Adventure', 'Fantasy'],
     language: 'English',
     type: 'Scripted',
@@ -30,7 +33,7 @@ const videos = ref([
     id: 3,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_landscape/601/1504098.jpg',
     title: 'Nikki DeLoach',
-    rate: 8.7,
+    rating: 8.7,
     genres: ['Drama', 'Fantasy', 'Horror'],
     language: 'English',
     type: 'regular',
@@ -42,9 +45,10 @@ const videos = ref([
 
 <template>
   <h2 class="genre-title">Nice movies</h2>
+  {{ videoListStore.videos.error }}
   <section class="video-list">
     <VideoItem v-for="video in videos" :key="video.id" :thumbnail="video.thumbnail" :title="video.title"
-      :rate="video.rate" :genres="video.genres" :language="video.language" :type="video.type" :status="video.status"
+      :rating="video.rating" :genres="video.genres" :language="video.language" :type="video.type" :status="video.status"
       :summary="video.summary" />
   </section>
 </template>

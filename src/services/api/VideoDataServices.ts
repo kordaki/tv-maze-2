@@ -3,7 +3,7 @@ import type { Video, VideoResponse } from "@/types/VideoType";
 
 export async function getVideoScheduleRequest() {
   try {
-    // const response: any = await http.get(`/schedule/full`);
+    // const response: any = await apiClient.get(`/schedule/full`);
     // for lighter response in dev
     const response: any = await apiClient.get(
       `/schedule/web?date=2021-05-29`
