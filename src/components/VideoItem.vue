@@ -4,7 +4,7 @@ import LanguageIcon from './icons/IconLanguage.vue'
 import type { Video } from '@/types';
 const {
   id,
-  title,
+  name,
   language,
   rating,
   status,
@@ -13,7 +13,7 @@ const {
   summary,
   thumbnail,
 } =
-  defineProps<Video>()
+  defineProps < Video > ()
 </script>
 
 <template>
@@ -27,7 +27,7 @@ const {
 
       <div class="description" v-html="summary"></div>
     </div>
-    <h3 class="name">{{ title }}</h3>
+    <h3 class="name">{{ name }}</h3>
     <div class="attribute inline">
       <span class="inline-flex">
         <LanguageIcon color="var(--color-primary)" /> {{ language }}

@@ -10,7 +10,7 @@ const videos = ref([
   {
     id: 1,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_portrait/359/898306.jpg',
-    title: 'Breaking Bad',
+    name: 'Breaking Bad',
     rating: 9.5,
     genres: ['Crime', 'Drama', 'Thriller'],
     language: 'English',
@@ -21,7 +21,7 @@ const videos = ref([
   {
     id: 2,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_portrait/528/1320416.jpg',
-    title: 'Game of Thrones',
+    name: 'Game of Thrones',
     rating: 9.3,
     genres: ['Drama', 'Adventure', 'Fantasy'],
     language: 'English',
@@ -32,7 +32,7 @@ const videos = ref([
   {
     id: 3,
     thumbnail: 'https://static.tvmaze.com/uploads/images/medium_landscape/601/1504098.jpg',
-    title: 'Nikki DeLoach',
+    name: 'Nikki DeLoach',
     rating: 8.7,
     genres: ['Drama', 'Fantasy', 'Horror'],
     language: 'English',
@@ -44,10 +44,10 @@ const videos = ref([
 </script>
 
 <template>
-  <h2 class="genre-title">Nice movies</h2>
+  <h2 class="genre-name">Nice movies</h2>
   {{ videoListStore.videos.error }}
   <section class="video-list">
-    <VideoItem v-for="video in videos" :key="video.id" :thumbnail="video.thumbnail" :title="video.title"
+    <VideoItem v-for="video in videos" :key="video.id" :thumbnail="video.thumbnail" :name="video.name"
       :rating="video.rating" :genres="video.genres" :language="video.language" :type="video.type" :status="video.status"
       :summary="video.summary" />
   </section>
@@ -55,7 +55,7 @@ const videos = ref([
 
 
 <style>
-.genre-title {
+.genre-name {
   border-bottom: 1px solid var(--color-border);
   padding-left: 1rem;
   padding-top: 0.5rem;

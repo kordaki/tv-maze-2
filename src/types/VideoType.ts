@@ -10,7 +10,7 @@ export type Rating = {
 export interface Video {
   id: number;
   language: string;
-  title: string;
+  name: string;
   rating: Rating;
   ended: string;
   url: string;
