@@ -1,1 +1,1 @@
-export { Video } from './VideoType';
+export { Video, KeyVideo, VideoResponse } from './VideoType';

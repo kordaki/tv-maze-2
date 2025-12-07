@@ -1,7 +1,7 @@
-import type { Video } from "../../types";
+import type { Video , KeyVideo, VideoResponse } from "../../types";
 
 export class VideoListModel {
-  static create(data: any): VideoListModel { // TODO: define data type
+  static create(data: VideoResponse["data"]): VideoListModel {
     if (!data) return {};
 
     const newVideoList = data.reduce((obj: any, dataItem: any) => {
@@ -36,7 +36,7 @@ export class VideoListModel {
     return rating.average;
   }
 
-  static getVideoListGroupedByGenre = (videoList) => {
+  static getVideoListGroupedByGenre = (videoList : Array<Video> ) => {
     const groupedByGenre = { Unknown: [] };
     Object.keys(videoList).forEach((key) => {
       const video: Video = videoList[key];
@@ -55,7 +55,7 @@ export class VideoListModel {
     return groupedByGenre;
   };
 
-  static getGenresList = (videoListGroupedByGenre) => {
+  static getGenresList = (videoListGroupedByGenre: KeyVideo) => {
     return Object.keys(videoListGroupedByGenre);
   };
 }

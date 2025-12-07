@@ -13,5 +13,6 @@ export interface Video {
 export type KeyVideo = Record<Video["id"], Video>;
 
 export interface VideoResponse {
-  data: Video;
+  data: any;
+
 }

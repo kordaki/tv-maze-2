@@ -15,7 +15,7 @@ export const useVideoListStore = defineStore("videoList", () => {
   // state
   const videos = reactive({
     isLoading: false,
-    error: "hi oskol",
+    error: null,
     list: {},
   })
 
