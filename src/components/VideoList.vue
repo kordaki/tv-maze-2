@@ -5,7 +5,7 @@ import { useVideoListStore } from '@/stores/videoListStore';
 const videoListStore = useVideoListStore();
 
 defineProps<{
-  genre: string;
+  genre: string | null;
 }>();
 
 </script>
@@ -13,8 +13,8 @@ defineProps<{
 <template>
   <h2 class="genre-name">{{ genre }}</h2>
   <section class="video-list">
-    <VideoItem v-for="video in videoListStore.getVideoListByGenre(genre, false)" :key="video.id"
-      :thumbnail="video.image?.medium" :name="video.name" :rating="video.rating" :genres="video.genres"
+    <VideoItem v-for="video in videoListStore.getVideoListByGenre(genre, false)" :key="video.id" :id="video.id"
+      :thumbnail="video.thumbnail" :name="video.name" :rating="video.rating" :genres="video.genres"
       :language="video.language" :type="video.type" :status="video.status" :summary="video.summary" />
   </section>
 </template>

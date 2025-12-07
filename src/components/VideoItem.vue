@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { useRouter } from "vue-router";
 import StarIcon from './icons/IconStar.vue'
 import LanguageIcon from './icons/IconLanguage.vue'
 import type { Video } from '@/types';
+const router = useRouter();
 const {
   id,
   name,
@@ -13,7 +15,11 @@ const {
   summary,
   thumbnail,
 } =
-  defineProps < Video > ()
+  defineProps<Video>()
+
+const navigateToVideoPage = () => {
+  router.push({ name: 'video', params: { id: id } })
+}
 </script>
 
 <template>
@@ -23,8 +29,6 @@ const {
         'https://placehold.co/210x295?text=image+not+found'
         " alt="video" title="video" />
       <div class="badge" :class="status" v-if="status">{{ status }}</div>
-
-
       <div class="description" v-html="summary"></div>
     </div>
     <h3 class="name">{{ name }}</h3>
@@ -33,16 +37,13 @@ const {
         <LanguageIcon color="var(--color-primary)" /> {{ language }}
       </span>
       <span class="inline-flex">
-        <!-- Rate: <b v-if="rating.average">{{ rating.average }}</b> <i v-else>Empty</i> -->
         <StarIcon color="var(--color-primary)" /> <b>{{ rating }}</b>
       </span>
     </div>
     <div class="attribute">
       Genre:
-      <span v-if="genres.length > 0">
-        <span v-for="(genre, idx) in genres" :key="idx">{{ genre + (idx < genres.length - 1 ? ", " : "") }} </span>
-        </span>
-        <i v-else> Unknown </i>
+      <span v-if="genres.length > 0">{{ genres.join(", ") }}</span>
+      <i v-else> Unknown </i>
     </div>
     <div class="attribute">Type: {{ type }}</div>
   </article>
@@ -74,7 +75,6 @@ const {
 .video .hero {
   height: var(--video-height);
   width: var(--video-width);
-  /* overflow: hidden; */
   position: relative;
 }
 
@@ -82,7 +82,7 @@ const {
   height: var(--video-height);
   width: var(--video-width);
   object-fit: cover;
-  background-image: url("https://via.placeholder.com/210x295.png?text=Loading");
+  background-image: url("https://placehold.co/210x295?text=Loading");
 }
 
 .video .hero .badge {

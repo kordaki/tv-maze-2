@@ -1,9 +1,15 @@
 import { reactive, computed, toRaw } from "vue";
 import { defineStore } from "pinia";
 import { getVideoScheduleRequest } from "@/services/api/VideoDataServices";
-import { VideoListModel } from "./models/VideoListModel";
+import { VideoListModel } from "./models/videoListModel";
 
 import type { Video } from "@/types";
+
+type storeVideos = {
+  isLoading: boolean;
+  error?: Error | null;
+  list?: Record<Video["id"], Video>;
+};
 
 export const useVideoListStore = defineStore("videoList", () => {
   // state
@@ -14,7 +20,7 @@ export const useVideoListStore = defineStore("videoList", () => {
   })
 
   // actions
-  const updateVideos = ({ isLoading, error, list }: any) => {
+  const updateVideos = ({ isLoading, error, list }: storeVideos) => {
     videos.error = error;
     videos.isLoading = isLoading;
     if (list) videos.list = list;

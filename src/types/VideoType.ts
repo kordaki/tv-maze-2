@@ -1,24 +1,11 @@
-export type VideoImage = {
-  medium: string;
-  original: string;
-};
-
-export type Rating = {
-  average: number;
-};
-
 export interface Video {
   id: number;
-  language: string;
+  language: string | null;
   name: string;
-  rating: Rating;
-  ended: string;
-  url: string;
-  weight: number;
-  image: VideoImage;
-  thumbnail: string;
+  rating: number | null;
+  thumbnail: string | null;
   genres: Array<string>;
-  summary: string;
+  summary: string | null;
   type: string;
   status: string;
 }

@@ -11,15 +11,29 @@ export class VideoListModel {
         name: dataItem._embedded.show.name,
         genres: dataItem._embedded.show.genres,
         language: dataItem._embedded.show.language,
-        image: dataItem._embedded.show.image,
+        thumbnail: this.getThumbnail(dataItem._embedded.show.image),
         summary: dataItem._embedded.show.summary,
         type: dataItem._embedded.show.type,
-        rating: dataItem._embedded.show.rating,
+        rating: this.getRating(dataItem._embedded.show.rating),
         status: dataItem._embedded.show.status,
       };
       return obj;
     }, {});
     return newVideoList;
+  }
+
+  static getThumbnail = (image: { medium: string; original: string } | null) => {
+    if (!image || !image.medium) {
+      return null;
+    }
+    return image.medium;
+  }
+
+  static getRating = (rating: { average: number } | null) => {
+    if (!rating || !rating.average) {
+      return null;
+    }
+    return rating.average;
   }
 
   static getVideoListGroupedByGenre = (videoList) => {

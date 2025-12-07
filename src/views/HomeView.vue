@@ -20,6 +20,5 @@ onMounted(() => {
         <VideoList v-for="genre in videoListStore.genresList" :genre="genre" v-bind:key="genre" />
       </section>
     </section>
-    <VideoList />
   </main>
 </template>
