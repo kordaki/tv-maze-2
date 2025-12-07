@@ -14,10 +14,12 @@ This template should help get you started developing with Vue 3 in Vite.
   - [x] Video List
   - [ ] Single page components
   - [ ] UI Test (nice to have)*
-- [ ] API call
+- [x] API call
   - [ ] Cash with TanStack (nice to have)*
 - [ ] Logics for:
-  - [ ] Grouping the videos by genres + Unit tests
+  - [x] Grouping the videos by genres
+  - [ ] Unit tests
+  - [ ] Fix types
   - [ ] Sorting the videos by rating + Unit tests
   - [ ] Search + Unit tests
   - [ ] more features?! (nice to have)*
