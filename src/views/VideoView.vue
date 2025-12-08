@@ -93,7 +93,7 @@ onMounted(() => {
     width: auto;
     min-width: 30%;
     max-width: 50%;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 100px);
   }
 
   .video-page .content .title {

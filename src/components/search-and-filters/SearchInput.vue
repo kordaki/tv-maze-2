@@ -18,13 +18,7 @@ const searchHandler = (e: Event) => {
 <template>
   <section>
     <form @submit="searchHandler">
-      <input
-        class="search-input"
-        type="search"
-        name="search"
-        placeholder="search here..."
-        v-model="userSearchQuery"
-      />
+      <input class="search-input" type="search" name="search" placeholder="search here..." v-model="userSearchQuery" />
       <!-- <input type="submit" name="Search" /> -->
       <button class="search-button" @click="searchHandler">Go</button>
     </form>
@@ -42,9 +36,16 @@ const searchHandler = (e: Event) => {
   color: var(--color-text);
   border-bottom: 1px solid var(--color-border);
 }
+
 .search-input:focus {
   width: 15rem;
   background: var(--color-background-mute);
   border-color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .search-input {
+    width: 10rem !important;
+  }
 }
 </style>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
+import IconStar from "../icons/IconStar.vue";
 
 const router = useRouter();
 const route = useRoute();
@@ -25,7 +26,10 @@ const clickLabelHandler = (e: Event) => {
   <section class="sort">
     <input class="sort-check" type="checkbox" id="sort-by-rating" value="sort-by-rating" :checked="isSortEnabled"
       @click="switchSortByRating" />
-    <label for="sort-by-rating" @click="clickLabelHandler">Sort by Rating</label><br />
+    <label for="sort-by-rating" class="sort-by-rating" @click="clickLabelHandler">Sort by Rating</label><br />
+    <label for="sort-by-rating" class="sort-by-rating-mobile" @click="clickLabelHandler">
+      <IconStar color="var(--color-secondary)" />
+    </label><br />
   </section>
 </template>
 
@@ -47,5 +51,24 @@ const clickLabelHandler = (e: Event) => {
 .sort label {
   padding-left: 1rem;
   cursor: pointer;
+}
+
+.sort .sort-by-rating-mobile {
+  display: none;
+}
+
+.sort .sort-by-rating {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .sort .sort-by-rating-mobile {
+    display: inline-block;
+  }
+
+  .sort .sort-by-rating {
+    display: none;
+  }
+
 }
 </style>

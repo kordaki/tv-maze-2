@@ -20,7 +20,7 @@ onMounted(() => {
 
 <template>
   <main>
-    <section>
+    <section class="filters">
       <SortButton />
       <Search />
     </section>
@@ -34,3 +34,22 @@ onMounted(() => {
     </section>
   </main>
 </template>
+
+<style>
+main {
+  padding: 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1024px) {
+  .filters {
+    /* flex-direction: row; */
+  }
+}
+</style>
