@@ -34,18 +34,16 @@ onMounted(() => {
           <li>
             Genre:
             <span v-if="videoStore.video.data?.genres.length > 0">
-              <span v-for="(genre, idx) in videoStore.video.data?.genres" :key="idx">
-                {{ videoStore.video.data?.genres.join(', ') }} </span>
+              <span>{{ videoStore.video.data?.genres.join(', ') }} </span>
             </span>
             <i v-else> Unknown </i>
           </li>
           <li>Language: {{ videoStore.video.data.language }}</li>
           <li>Type: {{ videoStore.video.data.type }}</li>
         </ul>
-        <div class="attribute summary" v-html="videoStore.video.data.summary"></div>
+        <div v-if="videoStore.video.data.summary" class="attribute summary" v-html="videoStore.video.data.summary">
+        </div>
       </div>
-
-
     </section>
   </main>
 </template>
@@ -60,12 +58,17 @@ onMounted(() => {
 .video-page .image {
   min-width: 30%;
   max-width: 50%;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 85px);
 }
 
 .video-page .content {
   flex: 1;
   padding: 1rem;
+}
+
+.video-page .content .title {
+  color: var(--color-secondary);
+  font-size: xxx-large;
 }
 
 .video-page .image img {

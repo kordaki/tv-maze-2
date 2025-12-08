@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { setActivePinia, createPinia } from 'pinia'
 import { useVideoListStore } from '../VideoListStore'
 import { getVideoScheduleRequest } from '@/services/api/VideoDataServices'
-import { VideoListModel } from '../models/videoListModel'
+import { VideoListModel } from '../models/VideoListModel'
 import type { Video } from '@/types'
 
 vi.mock('@/services/api/VideoDataServices')

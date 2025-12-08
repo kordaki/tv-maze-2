@@ -37,7 +37,7 @@ const navigateToVideoPage = () => {
         <LanguageIcon color="var(--color-primary)" /> {{ language }}
       </span>
       <span class="inline-flex">
-        <StarIcon color="var(--color-primary)" /> <b>{{ rating }}</b>
+        <StarIcon color="var(--color-primary)" /> <b>{{ rating || "Unknown" }}</b>
       </span>
     </div>
     <div class="attribute">
@@ -124,6 +124,10 @@ const navigateToVideoPage = () => {
   display: -webkit-box !important;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+
+.video .hero .description :deep(p) {
+  display: inline-block;
 }
 
 .video:hover .hero .description {

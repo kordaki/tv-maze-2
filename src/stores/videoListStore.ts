@@ -1,7 +1,7 @@
 import { reactive, computed, toRaw } from 'vue'
 import { defineStore } from 'pinia'
 import { getVideoScheduleRequest } from '@/services/api/VideoDataServices'
-import { VideoListModel } from './models/videoListModel'
+import { VideoListModel } from './models/VideoListModel'
 
 import type { VideoListItem } from '@/types'
 
