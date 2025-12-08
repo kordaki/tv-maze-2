@@ -9,3 +9,5 @@ export interface VideoListItem
 export interface VideoListResponse {
   data: Array<Video>
 }
+
+export type KeyVideoListItem = Record<VideoListItem['id'], VideoListItem>

@@ -15,6 +15,20 @@ a,
   padding: 3px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+button {
+  background: var(--color-primary);
+  border: none;
+  height: 2.5rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);

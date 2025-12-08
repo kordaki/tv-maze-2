@@ -10,8 +10,6 @@ export interface Video {
   status: string
 }
 
-export type KeyVideo = Record<Video['id'], Video>
-
 export interface VideoResponse {
   data: any
 }
