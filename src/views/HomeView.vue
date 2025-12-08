@@ -4,6 +4,7 @@ import { onMounted } from 'vue';
 import { useVideoListStore } from '@/stores/VideoListStore';
 import IconLoading from '@/components/icons/IconLoading.vue';
 import VideoList from '../components/VideoList.vue';
+import SortButton from '@/components/search-and-filters/SortButton.vue';
 const videoListStore = useVideoListStore();
 
 onMounted(() => {
@@ -14,6 +15,9 @@ onMounted(() => {
 
 <template>
   <main>
+    <section>
+      <SortButton />
+    </section>
     <section>
       <IconLoading v-if="videoListStore.videos.isLoading" />
       <section v-else-if="videoListStore.genresList.length > 0">

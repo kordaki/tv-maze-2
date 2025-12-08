@@ -76,8 +76,6 @@ onMounted(() => {
   height: 100%;
 }
 
-
-
 .video-page .content .summary {
   margin: 1rem 0;
   padding: 0.5rem;

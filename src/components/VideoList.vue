@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { useRoute } from "vue-router";
 import VideoItem from './VideoListItem.vue';
 import { useVideoListStore } from '@/stores/VideoListStore';
 
+const route = useRoute();
 const videoListStore = useVideoListStore();
 
 defineProps<{
@@ -13,9 +15,10 @@ defineProps<{
 <template>
   <h2 class="genre-name">{{ genre }}</h2>
   <section class="video-list">
-    <VideoItem v-for="video in videoListStore.getVideoListByGenre(genre, false)" :key="video.id" :id="video.id"
-      :thumbnail="video.thumbnail" :name="video.name" :rating="video.rating" :genres="video.genres"
-      :language="video.language" :type="video.type" :status="video.status" :summary="video.summary" />
+    <VideoItem v-for="video in videoListStore.getVideoListByGenre(genre, route.query.isSortEnable === 'true')"
+      :key="video.id" :id="video.id" :thumbnail="video.thumbnail" :name="video.name" :rating="video.rating"
+      :genres="video.genres" :language="video.language" :type="video.type" :status="video.status"
+      :summary="video.summary" />
   </section>
 </template>
 

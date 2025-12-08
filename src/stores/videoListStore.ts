@@ -45,10 +45,10 @@ export const useVideoListStore = defineStore('videoList', () => {
   // methods
   const sortVideoByRating = (videoList: Array<Video>) => {
     return videoList.sort((a: Video, b: Video) => {
-      if (a.rating.average > b.rating.average) {
+      if (a.rating > b.rating) {
         return -1
       }
-      if (a.rating.average < b.rating.average) {
+      if (a.rating < b.rating) {
         return 1
       }
       return 0
