@@ -4,8 +4,6 @@
     <nav class="navigator">
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/video/1">Video 1</RouterLink>
-      <RouterLink to="/video/2">Video 2</RouterLink>
-      <RouterLink to="/video/3">Video 3</RouterLink>
     </nav>
   </header>
 </template>

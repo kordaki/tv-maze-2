@@ -56,9 +56,8 @@ onMounted(() => {
 }
 
 .video-page .image {
-  min-width: 30%;
-  max-width: 50%;
-  height: calc(100vh - 85px);
+  width: 100%;
+  height: auto;
 }
 
 .video-page .content {
@@ -68,7 +67,7 @@ onMounted(() => {
 
 .video-page .content .title {
   color: var(--color-secondary);
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
 .video-page .image img {
@@ -91,7 +90,14 @@ onMounted(() => {
   }
 
   .video-page .image {
+    width: auto;
+    min-width: 30%;
     max-width: 50%;
+    height: calc(100vh - 85px);
+  }
+
+  .video-page .content .title {
+    font-size: xxx-large;
   }
 }
 </style>
