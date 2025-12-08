@@ -1,0 +1,1026 @@
+[
+  {
+    "id": 1790259,
+    "url": "https://www.tvmaze.com/episodes/1790259/cotton-bowl-classic-1x88-2024-cotton-bowl",
+    "name": "2024 Cotton Bowl",
+    "season": 1,
+    "number": 88,
+    "type": "regular",
+    "airdate": "2024-01-01",
+    "airtime": "13:00",
+    "airstamp": "2024-01-01T18:00:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790259" },
+      "show": { "href": "https://api.tvmaze.com/shows/10839" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10839,
+        "url": "https://www.tvmaze.com/shows/10839/cotton-bowl-classic",
+        "name": "Cotton Bowl Classic",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1937-01-01",
+        "ended": null,
+        "officialSite": "http://www.cottonbowl.com/home/",
+        "schedule": { "time": "13:00", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91431.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91431.jpg"
+        },
+        "summary": "<p>The <b>Cotton Bowl Classic</b> is an American college football bowl game that has been held annually since January 1, 1937. Between 1937 and 2009, the game was played at its namesake stadium in Dallas, Texas; in 2010, it moved to Cowboys Stadium in nearby Arlington. Historically, the game hosted the champion of the Southwest Conference (SWC); after that conference's dissolution in 1996, the game hosted a team from the Big 12 Conference, usually against a team from the Southeastern Conference (SEC). The Cotton Bowl Classic has served as one of six bowls in the College Football Playoff (CFP) since the 2014 season.</p><p>The 2015 Cotton Bowl Classic is a college football bowl game played on December 31, 2015 at AT&amp;T Stadium in Arlington, Texas. The 80th Cotton Bowl Classic is a College Football Playoff semifinal with the winner of this game competing against the winner of the 2015 Orange Bowl in the 2016 College Football Playoff National Championship, which will take place at University of Phoenix Stadium in Glendale, Arizona. It will be one of the 2015–16 bowl games that concluded the 2015 FBS football season. The game will be broadcast on ESPN, ESPN Deportes, ESPN Radio and XM Satellite Radio. It is sponsored by the Goodyear Tire and Rubber Company and is officially known as the College Football Playoff Semifinal at the Goodyear Cotton Bowl Classic.</p>",
+        "updated": 1639931620,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10839" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790257"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790258" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790099,
+    "url": "https://www.tvmaze.com/episodes/1790099/sugar-bowl-1x90-2024-sugar-bowl",
+    "name": "2024 Sugar Bowl",
+    "season": 1,
+    "number": 90,
+    "type": "regular",
+    "airdate": "2024-01-01",
+    "airtime": "20:30",
+    "airstamp": "2024-01-02T01:30:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790099" },
+      "show": { "href": "https://api.tvmaze.com/shows/11015" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11015,
+        "url": "https://www.tvmaze.com/shows/11015/sugar-bowl",
+        "name": "Sugar Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 213,
+        "premiered": "1935-01-01",
+        "ended": null,
+        "officialSite": "http://www.allstatesugarbowl.org/site.php",
+        "schedule": { "time": "20:30", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 29,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/37/92669.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/37/92669.jpg"
+        },
+        "summary": "<p>The <b>Sugar Bowl</b> is an annual American college football bowl game played in the Mercedes-Benz Superdome in New Orleans, Louisiana. The Sugar Bowl has been played annually since January 1, 1935, and celebrated its 75th anniversary on January 2, 2009. The Sugar Bowl, along with the Orange Bowl and Sun Bowl, are the second-oldest bowl games in the country, behind the Rose Bowl. The Sugar Bowl is also a member of the College Football Playoff. Presently, its official title is the Allstate Sugar Bowl after its current sponsor. The Sugar Bowl has had a longstanding —albeit not exclusive— relationship with the Southeastern Conference (which once had a member based in New Orleans,Tulane University; another Louisiana school, Louisiana State University in Baton Rouge, is still in the SEC today). From 1950 to 1995, only once did the Sugar Bowl <i>not</i>feature an SEC team. That relationship has been altered over the past twenty years due to conference realignments and the emergence of a series of coalitions and alliances intending to produce an undisputed national champion in college football, but the ties between the Sugar Bowl and the SEC have persisted and have recently been strengthened.</p><p>Starting in January 2015, the Sugar Bowl game will be in a three-year rotation with the Rose, Orange, Cotton, Peach, and Fiesta bowls where they'll host a semifinal game the first year and feature the SEC and Big 12 conference champions the next two, an arrangement nearly identical with the relationship between the Rose Bowl and the champions of the Big Ten and Pac-12. As a member of the Bowl Championship Series, the Sugar Bowl hosted the BCS National Championship Game twice (2000 and 2004). However, from the 2006 season to the 2013 season, the BCS National Championship Game had been a stand-alone event, following one week after the New Year's Day bowl games. This means that, under the now-defunct BCS format, no traditional bowl game hosted the BCS National Championship Game, but that game <i>was</i> played at the <i>venue</i> of one of those traditional major bowls, rotating amongst the four sites, including the Superdome. The payout for the 2006 game was $14–17 million per participating team. According to <i>Sports Illustrated</i>, the 2007 salary for Sugar Bowl CEO Paul Hoolahan was $607,500.</p>",
+        "updated": 1640036261,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/11015" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790097"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790098" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790093,
+    "url": "https://www.tvmaze.com/episodes/1790093/ncaa-college-football-national-championship-2024-01-08-2024-ncaa-college-football-national-championship-game",
+    "name": "2024 NCAA College Football National Championship Game",
+    "season": 2024,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2024-01-08",
+    "airtime": "20:15",
+    "airstamp": "2024-01-09T01:15:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790093" },
+      "show": { "href": "https://api.tvmaze.com/shows/10179" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10179,
+        "url": "https://www.tvmaze.com/shows/10179/ncaa-college-football-national-championship",
+        "name": "NCAA College Football National Championship",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 203,
+        "premiered": "2015-01-12",
+        "ended": null,
+        "officialSite": "https://collegefootballplayoff.teamtix.com/markets/sports/college-fb/event/2016-national-championship?host=cfp",
+        "schedule": { "time": "20:15", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 40,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/236/590675.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/236/590675.jpg"
+        },
+        "summary": "<p>The <b>NCAA College Football National Championship </b>is a bowl game that determines the National Champion of NCAA Division I FBScollege football first played at the end of the 2014 – 2015 College Football season.</p>",
+        "updated": 1642329505,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10179" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790091"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790092" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1789770,
+    "url": "https://www.tvmaze.com/episodes/1789770/super-bowl-2024-02-04-super-bowl-lviii-tbd-vs-tbd",
+    "name": "Super Bowl LVIII - TBD vs. TBD",
+    "season": 2024,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2024-02-04",
+    "airtime": "18:30",
+    "airstamp": "2024-02-04T23:30:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1789770" },
+      "show": { "href": "https://api.tvmaze.com/shows/6011" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 6011,
+        "url": "https://www.tvmaze.com/shows/6011/super-bowl",
+        "name": "Super Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1967-01-15",
+        "ended": null,
+        "officialSite": "http://www.superbowl.com",
+        "schedule": { "time": "18:30", "days": ["Sunday"] },
+        "rating": { "average": 7.4 },
+        "weight": 54,
+        "network": {
+          "id": 4,
+          "name": "FOX",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": "https://www.fox.com/"
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": 8128, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/237/592634.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/237/592634.jpg"
+        },
+        "summary": "<p>The <b>Super Bowl</b> is the annual championship game of the National Football League (NFL), the highest level of professional football in the United States, culminating aseason that begins in the late summer of the previous calendar year. The Super Bowl normally uses Roman numerals to identify each game, rather than the year in which it is held. For example, Super Bowl I was played on January 15, 1967, following the 1966 regular season. The single exception to this rule is Super Bowl 50, which was played on February 7, 2016, following the 2015 regular season.</p><p>The game was created as part of a merger agreement between the NFL and its then-rival league, the American Football League (AFL). It was agreed that the two leagues' champion teams would play in the AFL–NFL World Championship Game until the merger was to officially begin in 1970. After the merger, each league was redesignated as a \"conference\", and the game has since been played between the conference champions to determine the NFL's league champion. Currently, theNational Football Conference (NFC) leads the league with 26 wins to 23 wins for the American Football Conference (AFC). The Pittsburgh Steelers hold the record for Super Bowl victories with six.</p><p>The day on which the Super Bowl is played, now considered by some an unofficial American national holiday, is called \"Super Bowl Sunday\". It is the second-largest day for U.S. food consumption, after Thanksgiving Day. In addition, the Super Bowl has frequently been the most-watched American television broadcast of the year; the four most-watched broadcasts in U.S. television history are Super Bowls. In 2015, Super Bowl XLIX became the most-watched American television program in history with an average audience of 114.4 million viewers, the fifth time in six years the game had set a record, starting with the 2010 Super Bowl, which itself had taken over the number-one spot held for 27 years by the final episode of <i>M*A*S*H</i>. The Super Bowl is also among the most-watched sporting events in the world, almost all audiences being North American, and is second to soccer's UEFA Champions League final as the most watched <i>annual</i> sporting event worldwide.</p>",
+        "updated": 1654032443,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/6011" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1789768"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1789769" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790260,
+    "url": "https://www.tvmaze.com/episodes/1790260/cotton-bowl-classic-1x89-2024-cotton-bowl",
+    "name": "2024 Cotton Bowl",
+    "season": 1,
+    "number": 89,
+    "type": "regular",
+    "airdate": "2024-12-28",
+    "airtime": "13:00",
+    "airstamp": "2024-12-28T18:00:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790260" },
+      "show": { "href": "https://api.tvmaze.com/shows/10839" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10839,
+        "url": "https://www.tvmaze.com/shows/10839/cotton-bowl-classic",
+        "name": "Cotton Bowl Classic",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1937-01-01",
+        "ended": null,
+        "officialSite": "http://www.cottonbowl.com/home/",
+        "schedule": { "time": "13:00", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91431.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91431.jpg"
+        },
+        "summary": "<p>The <b>Cotton Bowl Classic</b> is an American college football bowl game that has been held annually since January 1, 1937. Between 1937 and 2009, the game was played at its namesake stadium in Dallas, Texas; in 2010, it moved to Cowboys Stadium in nearby Arlington. Historically, the game hosted the champion of the Southwest Conference (SWC); after that conference's dissolution in 1996, the game hosted a team from the Big 12 Conference, usually against a team from the Southeastern Conference (SEC). The Cotton Bowl Classic has served as one of six bowls in the College Football Playoff (CFP) since the 2014 season.</p><p>The 2015 Cotton Bowl Classic is a college football bowl game played on December 31, 2015 at AT&amp;T Stadium in Arlington, Texas. The 80th Cotton Bowl Classic is a College Football Playoff semifinal with the winner of this game competing against the winner of the 2015 Orange Bowl in the 2016 College Football Playoff National Championship, which will take place at University of Phoenix Stadium in Glendale, Arizona. It will be one of the 2015–16 bowl games that concluded the 2015 FBS football season. The game will be broadcast on ESPN, ESPN Deportes, ESPN Radio and XM Satellite Radio. It is sponsored by the Goodyear Tire and Rubber Company and is officially known as the College Football Playoff Semifinal at the Goodyear Cotton Bowl Classic.</p>",
+        "updated": 1639931620,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10839" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790257"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790258" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790242,
+    "url": "https://www.tvmaze.com/episodes/1790242/peach-bowl-1x57-2024-peach-bowl",
+    "name": "2024 Peach Bowl",
+    "season": 1,
+    "number": 57,
+    "type": "regular",
+    "airdate": "2024-12-28",
+    "airtime": "15:10",
+    "airstamp": "2024-12-28T20:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790242" },
+      "show": { "href": "https://api.tvmaze.com/shows/10841" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10841,
+        "url": "https://www.tvmaze.com/shows/10841/peach-bowl",
+        "name": "Peach Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 208,
+        "premiered": "1968-12-30",
+        "ended": null,
+        "officialSite": "http://www.chick-fil-apeachbowl.com/",
+        "schedule": { "time": "15:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91443.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91443.jpg"
+        },
+        "summary": "<p>The <b>Peach Bowl</b>, (officially known as the Chick-fil-A Peach Bowl) for sponsorship purposes, is an annual college football bowl game played in Atlanta, Georgia since December 1968. The first three Peach Bowls were played at Grant Field on the Georgia Tech campus in Atlanta. Between 1971 and 1992, Atlanta-Fulton County Stadium hosted the game. Since 1993, the Georgia Dome has played host. Mercedes-Benz Stadium is planned to begin hosting the game in the 2017-18 season. Since the 2014 season, the bowl has featured College Football Playoff matchups, with the 2016, 2019, 2022, and 2025 games hosting a national semifinal. The bowl has been sponsored by Chick-fil-A since 1997. From 2006 to 2013, it was officially referred to as simply the Chick-fil-A Bowl before the \"Peach Bowl\" name was restored as a condition of joining the College Football Playoff rotation.</p>",
+        "updated": 1639845447,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10841" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790239"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790240" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790254,
+    "url": "https://www.tvmaze.com/episodes/1790254/orange-bowl-1x91-2024-orange-bowl",
+    "name": "2024 Orange Bowl",
+    "season": 1,
+    "number": 91,
+    "type": "regular",
+    "airdate": "2024-12-28",
+    "airtime": "20:10",
+    "airstamp": "2024-12-29T01:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790254" },
+      "show": { "href": "https://api.tvmaze.com/shows/10842" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10842,
+        "url": "https://www.tvmaze.com/shows/10842/orange-bowl",
+        "name": "Orange Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 208,
+        "premiered": "1935-01-01",
+        "ended": null,
+        "officialSite": "http://game.orangebowl.org",
+        "schedule": { "time": "20:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91457.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91457.jpg"
+        },
+        "summary": "<p>The <b>Orange Bowl</b> is an annual American college football bowl game played at Sun Life Stadium in Miami Gardens, Florida. This bowl game is sponsored by Capital One and part of the College Football Playoff. It has been played annually since January 1, 1935 and celebrated its 75th playing on January 1, 2009. The Orange Bowl, along with the Sugar Bowl and the Sun Bowl, are the second-oldest bowl games in the country, behind the Rose Bowl (first played 1902, played annually since 1916). The Orange Bowl was a member of the now-defunct Bowl Championship Series (BCS).</p><p>The Orange Bowl served as the BCS National Championship Game in 2001 and 2005. However, beginning with the 2006 season, the BCS National Championship Game became a stand-alone event, hosted by the local bowl organization about one week following the New Year's Day bowl games (including the Orange Bowl). Under that format the Orange Bowl Committee hosted two separate games in both 2009 (the 2009 Orange Bowl on January 1 and the 2009 BCS National Championship Game on January 8) and in 2013 (the 2013 Orange Bowl on January 1 and the 2013 BCS National Championship Game on January 7), all at Sun Life Stadium. The BCS ended after the 2013 season, being replaced by the current College Football Playoff.</p><p>Since 2007, the Orange Bowl has been host to the Atlantic Coast Conference champion unless they are involved in the national championship game (whereas the #2 ACC team would take their place) and has used the brand <i>Home of the ACC Champion</i>. The 2013 match-up ended with the Florida State Seminoles, who won the ACC championship, defeating the MAC champion Northern Illinois Huskies. This was the first time a non-AQ team that had suffered a loss previously in the season made it to the Orange Bowl.</p>",
+        "updated": 1665699715,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10842" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790251"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790252" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790248,
+    "url": "https://www.tvmaze.com/episodes/1790248/fiesta-bowl-1x54-2024-fiesta-bowl",
+    "name": "2024 Fiesta Bowl",
+    "season": 1,
+    "number": 54,
+    "type": "regular",
+    "airdate": "2024-12-30",
+    "airtime": "19:10",
+    "airstamp": "2024-12-31T00:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790248" },
+      "show": { "href": "https://api.tvmaze.com/shows/11013" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11013,
+        "url": "https://www.tvmaze.com/shows/11013/fiesta-bowl",
+        "name": "Fiesta Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1971-12-27",
+        "ended": null,
+        "officialSite": "https://fiestabowl.org/fiesta-bowl/",
+        "schedule": { "time": "19:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 29,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/91/227692.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/91/227692.jpg"
+        },
+        "summary": "<p>The <b>Fiesta Bowl</b> (the PlayStation Fiesta Bowl is the full official name of this annual game) is an American college football bowl game played annually at the University of Phoenix Stadium in Glendale, Arizona. Between its origination in 1971 and 2006, the game was hosted in Tempe, Arizona at Sun Devil Stadium. Sponsored by obstacle racing series BattleFrog, as of January, 2016 it is officially known as the BattleFrog Fiesta Bowl. Vizio served as the title sponsor for the 2014 game. From 1996 until 2014, Frito-Lay was the bowl's title sponsor through its Tostitos tortilla chip brand. Previous sponsors included Sunkist and IBM.</p><p>In 1998, the Fiesta Bowl became part of the Bowl Championship Series (BCS), and before 2006 every four years (most recently in 2010) was the designee for the national championship game. Beginning with the 2014 season, Fiesta Bowl became a member of College Football Playoff, hosting a semifinal game every three years, and all the teams playing in this bowl will be selected by the CFP Selection Committee.</p>",
+        "updated": 1640035857,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/11013" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790245"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790246" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790100,
+    "url": "https://www.tvmaze.com/episodes/1790100/sugar-bowl-1x91-2025-sugar-bowl",
+    "name": "2025 Sugar Bowl",
+    "season": 1,
+    "number": 91,
+    "type": "regular",
+    "airdate": "2025-01-01",
+    "airtime": "20:30",
+    "airstamp": "2025-01-02T01:30:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790100" },
+      "show": { "href": "https://api.tvmaze.com/shows/11015" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11015,
+        "url": "https://www.tvmaze.com/shows/11015/sugar-bowl",
+        "name": "Sugar Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 213,
+        "premiered": "1935-01-01",
+        "ended": null,
+        "officialSite": "http://www.allstatesugarbowl.org/site.php",
+        "schedule": { "time": "20:30", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 29,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/37/92669.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/37/92669.jpg"
+        },
+        "summary": "<p>The <b>Sugar Bowl</b> is an annual American college football bowl game played in the Mercedes-Benz Superdome in New Orleans, Louisiana. The Sugar Bowl has been played annually since January 1, 1935, and celebrated its 75th anniversary on January 2, 2009. The Sugar Bowl, along with the Orange Bowl and Sun Bowl, are the second-oldest bowl games in the country, behind the Rose Bowl. The Sugar Bowl is also a member of the College Football Playoff. Presently, its official title is the Allstate Sugar Bowl after its current sponsor. The Sugar Bowl has had a longstanding —albeit not exclusive— relationship with the Southeastern Conference (which once had a member based in New Orleans,Tulane University; another Louisiana school, Louisiana State University in Baton Rouge, is still in the SEC today). From 1950 to 1995, only once did the Sugar Bowl <i>not</i>feature an SEC team. That relationship has been altered over the past twenty years due to conference realignments and the emergence of a series of coalitions and alliances intending to produce an undisputed national champion in college football, but the ties between the Sugar Bowl and the SEC have persisted and have recently been strengthened.</p><p>Starting in January 2015, the Sugar Bowl game will be in a three-year rotation with the Rose, Orange, Cotton, Peach, and Fiesta bowls where they'll host a semifinal game the first year and feature the SEC and Big 12 conference champions the next two, an arrangement nearly identical with the relationship between the Rose Bowl and the champions of the Big Ten and Pac-12. As a member of the Bowl Championship Series, the Sugar Bowl hosted the BCS National Championship Game twice (2000 and 2004). However, from the 2006 season to the 2013 season, the BCS National Championship Game had been a stand-alone event, following one week after the New Year's Day bowl games. This means that, under the now-defunct BCS format, no traditional bowl game hosted the BCS National Championship Game, but that game <i>was</i> played at the <i>venue</i> of one of those traditional major bowls, rotating amongst the four sites, including the Superdome. The payout for the 2006 game was $14–17 million per participating team. According to <i>Sports Illustrated</i>, the 2007 salary for Sugar Bowl CEO Paul Hoolahan was $607,500.</p>",
+        "updated": 1640036261,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/11015" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790097"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790098" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790094,
+    "url": "https://www.tvmaze.com/episodes/1790094/ncaa-college-football-national-championship-2025-01-06-2025-ncaa-college-football-national-championship-game",
+    "name": "2025 NCAA College Football National Championship Game",
+    "season": 2025,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2025-01-06",
+    "airtime": "20:15",
+    "airstamp": "2025-01-07T01:15:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790094" },
+      "show": { "href": "https://api.tvmaze.com/shows/10179" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10179,
+        "url": "https://www.tvmaze.com/shows/10179/ncaa-college-football-national-championship",
+        "name": "NCAA College Football National Championship",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 203,
+        "premiered": "2015-01-12",
+        "ended": null,
+        "officialSite": "https://collegefootballplayoff.teamtix.com/markets/sports/college-fb/event/2016-national-championship?host=cfp",
+        "schedule": { "time": "20:15", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 40,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/236/590675.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/236/590675.jpg"
+        },
+        "summary": "<p>The <b>NCAA College Football National Championship </b>is a bowl game that determines the National Champion of NCAA Division I FBScollege football first played at the end of the 2014 – 2015 College Football season.</p>",
+        "updated": 1642329505,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10179" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790091"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790092" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790261,
+    "url": "https://www.tvmaze.com/episodes/1790261/cotton-bowl-classic-1x90-2025-cotton-bowl",
+    "name": "2025 Cotton Bowl",
+    "season": 1,
+    "number": 90,
+    "type": "regular",
+    "airdate": "2025-12-27",
+    "airtime": "13:00",
+    "airstamp": "2025-12-27T18:00:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790261" },
+      "show": { "href": "https://api.tvmaze.com/shows/10839" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10839,
+        "url": "https://www.tvmaze.com/shows/10839/cotton-bowl-classic",
+        "name": "Cotton Bowl Classic",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1937-01-01",
+        "ended": null,
+        "officialSite": "http://www.cottonbowl.com/home/",
+        "schedule": { "time": "13:00", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91431.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91431.jpg"
+        },
+        "summary": "<p>The <b>Cotton Bowl Classic</b> is an American college football bowl game that has been held annually since January 1, 1937. Between 1937 and 2009, the game was played at its namesake stadium in Dallas, Texas; in 2010, it moved to Cowboys Stadium in nearby Arlington. Historically, the game hosted the champion of the Southwest Conference (SWC); after that conference's dissolution in 1996, the game hosted a team from the Big 12 Conference, usually against a team from the Southeastern Conference (SEC). The Cotton Bowl Classic has served as one of six bowls in the College Football Playoff (CFP) since the 2014 season.</p><p>The 2015 Cotton Bowl Classic is a college football bowl game played on December 31, 2015 at AT&amp;T Stadium in Arlington, Texas. The 80th Cotton Bowl Classic is a College Football Playoff semifinal with the winner of this game competing against the winner of the 2015 Orange Bowl in the 2016 College Football Playoff National Championship, which will take place at University of Phoenix Stadium in Glendale, Arizona. It will be one of the 2015–16 bowl games that concluded the 2015 FBS football season. The game will be broadcast on ESPN, ESPN Deportes, ESPN Radio and XM Satellite Radio. It is sponsored by the Goodyear Tire and Rubber Company and is officially known as the College Football Playoff Semifinal at the Goodyear Cotton Bowl Classic.</p>",
+        "updated": 1639931620,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10839" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790257"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790258" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790243,
+    "url": "https://www.tvmaze.com/episodes/1790243/peach-bowl-1x58-2025-peach-bowl",
+    "name": "2025 Peach Bowl",
+    "season": 1,
+    "number": 58,
+    "type": "regular",
+    "airdate": "2025-12-27",
+    "airtime": "15:10",
+    "airstamp": "2025-12-27T20:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790243" },
+      "show": { "href": "https://api.tvmaze.com/shows/10841" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10841,
+        "url": "https://www.tvmaze.com/shows/10841/peach-bowl",
+        "name": "Peach Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 208,
+        "premiered": "1968-12-30",
+        "ended": null,
+        "officialSite": "http://www.chick-fil-apeachbowl.com/",
+        "schedule": { "time": "15:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91443.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91443.jpg"
+        },
+        "summary": "<p>The <b>Peach Bowl</b>, (officially known as the Chick-fil-A Peach Bowl) for sponsorship purposes, is an annual college football bowl game played in Atlanta, Georgia since December 1968. The first three Peach Bowls were played at Grant Field on the Georgia Tech campus in Atlanta. Between 1971 and 1992, Atlanta-Fulton County Stadium hosted the game. Since 1993, the Georgia Dome has played host. Mercedes-Benz Stadium is planned to begin hosting the game in the 2017-18 season. Since the 2014 season, the bowl has featured College Football Playoff matchups, with the 2016, 2019, 2022, and 2025 games hosting a national semifinal. The bowl has been sponsored by Chick-fil-A since 1997. From 2006 to 2013, it was officially referred to as simply the Chick-fil-A Bowl before the \"Peach Bowl\" name was restored as a condition of joining the College Football Playoff rotation.</p>",
+        "updated": 1639845447,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10841" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790239"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790240" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790249,
+    "url": "https://www.tvmaze.com/episodes/1790249/fiesta-bowl-1x55-2025-fiesta-bowl",
+    "name": "2025 Fiesta Bowl",
+    "season": 1,
+    "number": 55,
+    "type": "regular",
+    "airdate": "2025-12-27",
+    "airtime": "19:10",
+    "airstamp": "2025-12-28T00:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790249" },
+      "show": { "href": "https://api.tvmaze.com/shows/11013" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11013,
+        "url": "https://www.tvmaze.com/shows/11013/fiesta-bowl",
+        "name": "Fiesta Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 210,
+        "premiered": "1971-12-27",
+        "ended": null,
+        "officialSite": "https://fiestabowl.org/fiesta-bowl/",
+        "schedule": { "time": "19:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 29,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/91/227692.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/91/227692.jpg"
+        },
+        "summary": "<p>The <b>Fiesta Bowl</b> (the PlayStation Fiesta Bowl is the full official name of this annual game) is an American college football bowl game played annually at the University of Phoenix Stadium in Glendale, Arizona. Between its origination in 1971 and 2006, the game was hosted in Tempe, Arizona at Sun Devil Stadium. Sponsored by obstacle racing series BattleFrog, as of January, 2016 it is officially known as the BattleFrog Fiesta Bowl. Vizio served as the title sponsor for the 2014 game. From 1996 until 2014, Frito-Lay was the bowl's title sponsor through its Tostitos tortilla chip brand. Previous sponsors included Sunkist and IBM.</p><p>In 1998, the Fiesta Bowl became part of the Bowl Championship Series (BCS), and before 2006 every four years (most recently in 2010) was the designee for the national championship game. Beginning with the 2014 season, Fiesta Bowl became a member of College Football Playoff, hosting a semifinal game every three years, and all the teams playing in this bowl will be selected by the CFP Selection Committee.</p>",
+        "updated": 1640035857,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/11013" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790245"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790246" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790255,
+    "url": "https://www.tvmaze.com/episodes/1790255/orange-bowl-1x92-2025-orange-bowl",
+    "name": "2025 Orange Bowl",
+    "season": 1,
+    "number": 92,
+    "type": "regular",
+    "airdate": "2025-12-30",
+    "airtime": "20:10",
+    "airstamp": "2025-12-31T01:10:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790255" },
+      "show": { "href": "https://api.tvmaze.com/shows/10842" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10842,
+        "url": "https://www.tvmaze.com/shows/10842/orange-bowl",
+        "name": "Orange Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 208,
+        "premiered": "1935-01-01",
+        "ended": null,
+        "officialSite": "http://game.orangebowl.org",
+        "schedule": { "time": "20:10", "days": ["Friday"] },
+        "rating": { "average": null },
+        "weight": 30,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/36/91457.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/36/91457.jpg"
+        },
+        "summary": "<p>The <b>Orange Bowl</b> is an annual American college football bowl game played at Sun Life Stadium in Miami Gardens, Florida. This bowl game is sponsored by Capital One and part of the College Football Playoff. It has been played annually since January 1, 1935 and celebrated its 75th playing on January 1, 2009. The Orange Bowl, along with the Sugar Bowl and the Sun Bowl, are the second-oldest bowl games in the country, behind the Rose Bowl (first played 1902, played annually since 1916). The Orange Bowl was a member of the now-defunct Bowl Championship Series (BCS).</p><p>The Orange Bowl served as the BCS National Championship Game in 2001 and 2005. However, beginning with the 2006 season, the BCS National Championship Game became a stand-alone event, hosted by the local bowl organization about one week following the New Year's Day bowl games (including the Orange Bowl). Under that format the Orange Bowl Committee hosted two separate games in both 2009 (the 2009 Orange Bowl on January 1 and the 2009 BCS National Championship Game on January 8) and in 2013 (the 2013 Orange Bowl on January 1 and the 2013 BCS National Championship Game on January 7), all at Sun Life Stadium. The BCS ended after the 2013 season, being replaced by the current College Football Playoff.</p><p>Since 2007, the Orange Bowl has been host to the Atlantic Coast Conference champion unless they are involved in the national championship game (whereas the #2 ACC team would take their place) and has used the brand <i>Home of the ACC Champion</i>. The 2013 match-up ended with the Florida State Seminoles, who won the ACC championship, defeating the MAC champion Northern Illinois Huskies. This was the first time a non-AQ team that had suffered a loss previously in the season made it to the Orange Bowl.</p>",
+        "updated": 1665699715,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10842" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790251"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790252" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790101,
+    "url": "https://www.tvmaze.com/episodes/1790101/sugar-bowl-1x92-2026-sugar-bowl",
+    "name": "2026 Sugar Bowl",
+    "season": 1,
+    "number": 92,
+    "type": "regular",
+    "airdate": "2026-01-01",
+    "airtime": "20:30",
+    "airstamp": "2026-01-02T01:30:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790101" },
+      "show": { "href": "https://api.tvmaze.com/shows/11015" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11015,
+        "url": "https://www.tvmaze.com/shows/11015/sugar-bowl",
+        "name": "Sugar Bowl",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 213,
+        "premiered": "1935-01-01",
+        "ended": null,
+        "officialSite": "http://www.allstatesugarbowl.org/site.php",
+        "schedule": { "time": "20:30", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 29,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/37/92669.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/37/92669.jpg"
+        },
+        "summary": "<p>The <b>Sugar Bowl</b> is an annual American college football bowl game played in the Mercedes-Benz Superdome in New Orleans, Louisiana. The Sugar Bowl has been played annually since January 1, 1935, and celebrated its 75th anniversary on January 2, 2009. The Sugar Bowl, along with the Orange Bowl and Sun Bowl, are the second-oldest bowl games in the country, behind the Rose Bowl. The Sugar Bowl is also a member of the College Football Playoff. Presently, its official title is the Allstate Sugar Bowl after its current sponsor. The Sugar Bowl has had a longstanding —albeit not exclusive— relationship with the Southeastern Conference (which once had a member based in New Orleans,Tulane University; another Louisiana school, Louisiana State University in Baton Rouge, is still in the SEC today). From 1950 to 1995, only once did the Sugar Bowl <i>not</i>feature an SEC team. That relationship has been altered over the past twenty years due to conference realignments and the emergence of a series of coalitions and alliances intending to produce an undisputed national champion in college football, but the ties between the Sugar Bowl and the SEC have persisted and have recently been strengthened.</p><p>Starting in January 2015, the Sugar Bowl game will be in a three-year rotation with the Rose, Orange, Cotton, Peach, and Fiesta bowls where they'll host a semifinal game the first year and feature the SEC and Big 12 conference champions the next two, an arrangement nearly identical with the relationship between the Rose Bowl and the champions of the Big Ten and Pac-12. As a member of the Bowl Championship Series, the Sugar Bowl hosted the BCS National Championship Game twice (2000 and 2004). However, from the 2006 season to the 2013 season, the BCS National Championship Game had been a stand-alone event, following one week after the New Year's Day bowl games. This means that, under the now-defunct BCS format, no traditional bowl game hosted the BCS National Championship Game, but that game <i>was</i> played at the <i>venue</i> of one of those traditional major bowls, rotating amongst the four sites, including the Superdome. The payout for the 2006 game was $14–17 million per participating team. According to <i>Sports Illustrated</i>, the 2007 salary for Sugar Bowl CEO Paul Hoolahan was $607,500.</p>",
+        "updated": 1640036261,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/11015" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790097"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790098" }
+        }
+      }
+    }
+  },
+  {
+    "id": 1790095,
+    "url": "https://www.tvmaze.com/episodes/1790095/ncaa-college-football-national-championship-2026-01-05-2026-ncaa-college-football-national-championship-game",
+    "name": "2026 NCAA College Football National Championship Game",
+    "season": 2026,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2026-01-05",
+    "airtime": "20:15",
+    "airstamp": "2026-01-06T01:15:00+00:00",
+    "runtime": 210,
+    "rating": { "average": null },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": { "href": "https://api.tvmaze.com/episodes/1790095" },
+      "show": { "href": "https://api.tvmaze.com/shows/10179" }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10179,
+        "url": "https://www.tvmaze.com/shows/10179/ncaa-college-football-national-championship",
+        "name": "NCAA College Football National Championship",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 210,
+        "averageRuntime": 203,
+        "premiered": "2015-01-12",
+        "ended": null,
+        "officialSite": "https://collegefootballplayoff.teamtix.com/markets/sports/college-fb/event/2016-national-championship?host=cfp",
+        "schedule": { "time": "20:15", "days": ["Monday"] },
+        "rating": { "average": null },
+        "weight": 40,
+        "network": {
+          "id": 39,
+          "name": "ESPN",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": { "tvrage": null, "thetvdb": null, "imdb": null },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/236/590675.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/236/590675.jpg"
+        },
+        "summary": "<p>The <b>NCAA College Football National Championship </b>is a bowl game that determines the National Champion of NCAA Division I FBScollege football first played at the end of the 2014 – 2015 College Football season.</p>",
+        "updated": 1642329505,
+        "_links": {
+          "self": { "href": "https://api.tvmaze.com/shows/10179" },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1790091"
+          },
+          "nextepisode": { "href": "https://api.tvmaze.com/episodes/1790092" }
+        }
+      }
+    }
+  }
+]
