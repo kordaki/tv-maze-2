@@ -46,7 +46,7 @@ watch(
       <NotFound v-else-if="searchListStore.videos.list.length === 0" />
 
       <VideoItem v-else v-for="video in searchListStore.videos.list" v-bind:key="video.id" :id="video.id"
-        :thumbnail="video.thumbnail" :name="video.name" :summary="video.summary" :rating="video.rating"
+        :image="video.image" :name="video.name" :summary="video.summary" :rating="video.rating"
         :language="video.language" :type="video.type" :genres="video.genres" :status="video.status" />
     </section>
   </section>

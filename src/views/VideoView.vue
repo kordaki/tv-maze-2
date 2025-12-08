@@ -21,7 +21,7 @@ onMounted(() => {
     <NotFound v-else-if="!(videoStore.video.data)" />
     <section v-else class="video-page">
       <div class="image">
-        <img :src="videoStore.video.data.image" />
+        <img :src="videoStore.video.data.image?.original || 'https://placehold.co/420x590?text=image+not+found'" />
       </div>
       <div class="content">
         <h1 class="title">{{ videoStore.video.data.name }}</h1>
@@ -58,6 +58,8 @@ onMounted(() => {
 .video-page .image {
   width: 100%;
   height: auto;
+  background: url('https://placehold.co/420x590?text=Loading') center center no-repeat;
+  background-size: cover;
 }
 
 .video-page .content {

@@ -9,7 +9,7 @@ export class VideoModel extends BaseModel {
       name: video.name,
       genres: video.genres,
       language: video.language,
-      image: this.getOriginalImage(video.image),
+      image: video.image,
       summary: video.summary,
       type: video.type,
       rating: this.getRating(video.rating),
@@ -17,10 +17,10 @@ export class VideoModel extends BaseModel {
     }
   }
 
-  static getOriginalImage = (image: { medium: string; original: string } | null) => {
-    if (!image || !image.original) {
-      return null
-    }
-    return image.original
-  }
+  // static getOriginalImage = (image: { medium: string; original: string } | null) => {
+  //   if (!image || !image.original) {
+  //     return null
+  //   }
+  //   return image.original
+  // }
 }

@@ -1,2 +1,2 @@
-export { Video, KeyVideoListItem, VideoResponse } from './VideoType'
-export { VideoListItem, VideoListResponse } from './VideoListType'
+export { Video, VideoResponse } from './VideoType'
+export { VideoListResponse, KeyVideoListItem } from './VideoListType'

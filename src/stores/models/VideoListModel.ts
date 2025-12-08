@@ -1,5 +1,5 @@
 import { BaseModel } from './VideoBaseModel'
-import type { VideoListItem, KeyVideoListItem, VideoListResponse } from '../../types'
+import type { Video, KeyVideoListItem, VideoListResponse } from '../../types'
 
 export class VideoListModel extends BaseModel {
   static create(data: VideoListResponse['data']): KeyVideoListItem {
@@ -12,13 +12,13 @@ export class VideoListModel extends BaseModel {
     return newVideoList
   }
 
-  static createVideoItem(data: any): VideoListItem {
+  static createVideoItem(data: any): Video {
     return {
       id: data._embedded.show.id,
       name: data._embedded.show.name,
       genres: data._embedded.show.genres,
       language: data._embedded.show.language,
-      thumbnail: this.getThumbnail(data._embedded.show.image),
+      image: data._embedded.show.image || {},
       summary: data._embedded.show.summary,
       type: data._embedded.show.type,
       rating: this.getRating(data._embedded.show.rating),
@@ -26,17 +26,17 @@ export class VideoListModel extends BaseModel {
     }
   }
 
-  static getThumbnail = (image: { medium: string; original: string } | null) => {
-    if (!image || !image.medium) {
-      return null
-    }
-    return image.medium
-  }
+  // static getThumbnail = (image: { medium: string; original: string } | null) => {
+  //   if (!image || !image.medium) {
+  //     return null
+  //   }
+  //   return image.medium
+  // }
 
-  static getVideoListGroupedByGenre = (videoList: Array<VideoListItem>) => {
+  static getVideoListGroupedByGenre = (videoList: Array<Video>) => {
     const groupedByGenre = { Unknown: [] }
     Object.keys(videoList).forEach((key) => {
-      const video: VideoListItem = videoList[key]
+      const video: Video = videoList[key]
       if (video.genres.length === 0) {
         groupedByGenre['Unknown'].push(video.id)
         return

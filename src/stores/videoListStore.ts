@@ -3,12 +3,12 @@ import { defineStore } from 'pinia'
 import { getVideoScheduleRequest } from '@/services/api/VideoDataServices'
 import { VideoListModel } from './models/VideoListModel'
 
-import type { VideoListItem } from '@/types'
+import type { Video } from '@/types'
 
 type storeVideos = {
   isLoading: boolean
   error?: Error | null
-  list?: Record<VideoListItem['id'], VideoListItem>
+  list?: Record<Video['id'], Video>
 }
 
 export const useVideoListStore = defineStore('videoList', () => {

@@ -2,7 +2,7 @@
 import { useRouter } from "vue-router";
 import StarIcon from './icons/IconStar.vue'
 import LanguageIcon from './icons/IconLanguage.vue'
-import type { VideoListItem } from '@/types';
+import type { Video } from '@/types';
 const router = useRouter();
 const {
   id,
@@ -13,9 +13,9 @@ const {
   type,
   genres,
   summary,
-  thumbnail,
+  image,
 } =
-  defineProps<VideoListItem>()
+  defineProps<Video>()
 
 const navigateToVideoPage = () => {
   router.push({ name: 'video', params: { id: id } })
@@ -25,7 +25,7 @@ const navigateToVideoPage = () => {
 <template>
   <article class="video" @click="navigateToVideoPage">
     <div class="hero">
-      <img :src="thumbnail ||
+      <img :src="image?.medium ||
         'https://placehold.co/210x295?text=image+not+found'
         " alt="video" title="video" />
       <div class="badge" :class="status" v-if="status">{{ status }}</div>

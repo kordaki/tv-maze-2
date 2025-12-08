@@ -16,7 +16,7 @@ defineProps<{
   <h2 class="genre-name">{{ genre }}</h2>
   <section class="video-list">
     <VideoItem v-for="video in videoListStore.getVideoListByGenre(genre, route.query.isSortEnable === 'true')"
-      :key="video.id" :id="video.id" :thumbnail="video.thumbnail" :name="video.name" :rating="video.rating"
+      :key="video.id" :id="video.id" :image="video.image" :name="video.name" :rating="video.rating"
       :genres="video.genres" :language="video.language" :type="video.type" :status="video.status"
       :summary="video.summary" />
   </section>
