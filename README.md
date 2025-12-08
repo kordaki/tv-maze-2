@@ -10,20 +10,20 @@ This template should help get you started developing with Vue 3 in Vite.
   - [x] Single video page
   - [x] Header
 - [x] Create components with static data
-  - [x] Video Item *responsive*
+  - [x] Video Item _responsive_
   - [x] Video List
-  - [ ] Single page components
-  - [ ] UI Test (nice to have)*
+  - [x] Single page components
+  - [ ] UI Test (nice to have)\*
 - [x] API call
-  - [ ] Cash with TanStack (nice to have)*
+  - [ ] Cash with TanStack (nice to have)\*
 - [ ] Logics for:
   - [x] Grouping the videos by genres
-  - [ ] Unit tests
-  - [ ] Fix types
+  - [x] Unit tests
+  - [x] Fix types
   - [ ] Sorting the videos by rating + Unit tests
   - [ ] Search + Unit tests
-  - [ ] more features?! (nice to have)*
-- [ ] Dark/Light Theme (nice to have)*
+  - [ ] more features?! (nice to have)\*
+- [x] Dark/Light Theme (nice to have)\*
 
 ## Reminder
 

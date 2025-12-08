@@ -2,7 +2,7 @@
 import { useRouter } from "vue-router";
 import StarIcon from './icons/IconStar.vue'
 import LanguageIcon from './icons/IconLanguage.vue'
-import type { Video } from '@/types';
+import type { VideoListItem } from '@/types';
 const router = useRouter();
 const {
   id,
@@ -15,7 +15,7 @@ const {
   summary,
   thumbnail,
 } =
-  defineProps<Video>()
+  defineProps<VideoListItem>()
 
 const navigateToVideoPage = () => {
   router.push({ name: 'video', params: { id: id } })
@@ -43,7 +43,7 @@ const navigateToVideoPage = () => {
     <div class="attribute">
       Genre:
       <span v-if="genres.length > 0">{{ genres.join(", ") }}</span>
-      <i v-else> Unknown </i>
+      <span v-else> Unknown </span>
     </div>
     <div class="attribute">Type: {{ type }}</div>
   </article>

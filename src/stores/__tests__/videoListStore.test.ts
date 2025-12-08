@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { setActivePinia, createPinia } from 'pinia'
-import { useVideoListStore } from '../videoListStore'
+import { useVideoListStore } from '../VideoListStore'
 import { getVideoScheduleRequest } from '@/services/api/VideoDataServices'
 import { VideoListModel } from '../models/videoListModel'
 import type { Video } from '@/types'

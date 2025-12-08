@@ -1,19 +1,19 @@
-import { reactive, computed, toRaw } from "vue";
-import { defineStore } from "pinia";
-import { getVideoScheduleRequest } from "@/services/api/VideoDataServices";
-import { VideoListModel } from "./models/videoListModel";
+import { reactive, computed, toRaw } from 'vue'
+import { defineStore } from 'pinia'
+import { getVideoScheduleRequest } from '@/services/api/VideoDataServices'
+import { VideoListModel } from './models/videoListModel'
 
-import type { Video } from "@/types";
+import type { VideoListItem } from '@/types'
 
 type storeVideos = {
-  isLoading: boolean;
-  error?: Error | null;
-  list?: Record<Video["id"], Video>;
-};
+  isLoading: boolean
+  error?: Error | null
+  list?: Record<VideoListItem['id'], VideoListItem>
+}
 
-export const useVideoListStore = defineStore("videoList", () => {
+export const useVideoListStore = defineStore('videoList', () => {
   // state
-  const videos = reactive({
+  const videos = reactive<storeVideos>({
     isLoading: false,
     error: null,
     list: {},
@@ -21,47 +21,47 @@ export const useVideoListStore = defineStore("videoList", () => {
 
   // actions
   const updateVideos = ({ isLoading, error, list }: storeVideos) => {
-    videos.error = error;
-    videos.isLoading = isLoading;
-    if (list) videos.list = list;
-  };
+    videos.error = error
+    videos.isLoading = isLoading
+    if (list) videos.list = list
+  }
 
-  const requestVideoList =  async () => {
-    if (videos.isLoading) return;
-    updateVideos({ isLoading: true, error: null });
-    const [error, response] = await getVideoScheduleRequest();
-    const convertedList = VideoListModel.create(response);
-    return updateVideos({ isLoading: false, error: error, list: convertedList});
+  const requestVideoList = async () => {
+    if (videos.isLoading) return
+    updateVideos({ isLoading: true, error: null })
+    const [error, response] = await getVideoScheduleRequest()
+    const convertedList = VideoListModel.create(response)
+    return updateVideos({ isLoading: false, error: error, list: convertedList })
   }
 
   // getters
   const videoListGroupedByGenre = computed(() => {
-    if (videos.error) return {};
-    return VideoListModel.getVideoListGroupedByGenre(videos.list);
-  });
+    if (videos.error) return {}
+    return VideoListModel.getVideoListGroupedByGenre(videos.list)
+  })
 
-  const genresList = computed(() => VideoListModel.getGenresList(videoListGroupedByGenre.value));
+  const genresList = computed(() => VideoListModel.getGenresList(videoListGroupedByGenre.value))
 
   // methods
   const sortVideoByRating = (videoList: Array<Video>) => {
     return videoList.sort((a: Video, b: Video) => {
       if (a.rating.average > b.rating.average) {
-        return -1;
+        return -1
       }
       if (a.rating.average < b.rating.average) {
-        return 1;
+        return 1
       }
-      return 0;
-    });
-  };
+      return 0
+    })
+  }
 
   const getVideoListByGenre = (genreName: string, isSortEnable: boolean) => {
-    const videoListId = videoListGroupedByGenre.value[genreName];
-    if (!videoListId) return [];
-    let res = videoListId.map((videoId: number) => toRaw(videos.list[videoId]));
-    if (isSortEnable) res = sortVideoByRating(res);
-    return res;
-  };
+    const videoListId = videoListGroupedByGenre.value[genreName]
+    if (!videoListId) return []
+    let res = videoListId.map((videoId: number) => toRaw(videos.list[videoId]))
+    if (isSortEnable) res = sortVideoByRating(res)
+    return res
+  }
 
   return {
     videos,
@@ -70,6 +70,5 @@ export const useVideoListStore = defineStore("videoList", () => {
     videoListGroupedByGenre,
     sortVideoByRating,
     getVideoListByGenre,
-  };
-
-});
+  }
+})

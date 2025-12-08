@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import VideoItem from './VideoItem.vue';
-import { useVideoListStore } from '@/stores/videoListStore';
+import VideoItem from './VideoListItem.vue';
+import { useVideoListStore } from '@/stores/VideoListStore';
 
 const videoListStore = useVideoListStore();
 

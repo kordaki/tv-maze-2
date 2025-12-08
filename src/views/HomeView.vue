@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // import TheWelcome from '../components/TheWelcome.vue'
 import { onMounted } from 'vue';
-import { useVideoListStore } from '@/stores/videoListStore';
+import { useVideoListStore } from '@/stores/VideoListStore';
 import IconLoading from '@/components/icons/IconLoading.vue';
 import VideoList from '../components/VideoList.vue';
 const videoListStore = useVideoListStore();
